@@ -1,0 +1,18 @@
+@import "tailwindcss";
+@font-face {
+  font-family: "Freaky";
+  src: url(./assets/get_schwifty.ttf);
+}
+
+@theme{
+  --color-primary:#4CFF69;
+  --font-freaky:"Freaky";
+}
+
+.container{
+  @apply max-w-[1280px] m-auto px-5 xl:px-0;
+}
+
+body{
+  background-color :  #02090D;
+}
