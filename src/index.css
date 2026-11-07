@@ -15,4 +15,9 @@
 
 body{
   background-color :  #02090D;
+  overflow-x: hidden;
+}
+
+button{
+  cursor:pointer;
 }
